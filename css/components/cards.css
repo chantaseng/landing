@@ -1,0 +1,41 @@
+.container-middle h2 {
+  text-align: center;
+}
+
+
+
+.card-main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+}
+
+.card-first,
+.card-second,
+.card-third {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.container-footer li {
+  display: inline-block;
+}
+
+.media-link {
+  padding: 0;
+  text-align: center;
+}
+
+i {
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.container-footer p {
+  text-align: center;
+}

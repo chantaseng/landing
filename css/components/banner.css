@@ -1,0 +1,32 @@
+.banner {
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container h1,
+.container p {
+  margin: 0;
+}
+
+.btn-red {
+  display: inline-block;
+  width: 90px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  /* padding: 10px; */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-red:hover {
+  color: black;
+}
